@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enquiry</title>
+    <style>
+         h1{
+            text-align: center;
+            padding-top: 50px;
+        }
+        ul{
+            float: right;
+            list-style-type:none;
+            margin-top: 0px;
+            font-size: 20px;
+        }
+        ul li {
+            display: inline-block;
+        }
+
+        ul li a{
+            text-decoration: none;
+            content: #fff;
+            padding: 5pz 20px;
+            border: 1px solid black;
+            color:black;
+        }
+        a:hover{
+            background-color:grey;
+        }
+        
+        body{
+            text-align: center;
+            background-image: url(../content/enquiry.jpeg);
+            height: 100vh;
+            background-size: cover;
+            background-position: center;
+            color:black;
+        }
+        footer{
+            text-align: center;
+            bottom: 0px;
+        }
+        a{
+            color: black;
+        }
+        
+
+    </style>
+</head>
+<body>
+    <header>
+        <div>
+            <nav>
+                <ul>
+               <li> <a href="./Home.html">Home</a></li>
+               <li> <a href="./About.html">About Us</a></li>
+               <li> <a href="./Rooms.html">Rooms</a></li>
+               <li> <a href="./Facilities.html">Facilities</a></li>
+               <li> <a href="./Enquiry.html">Enquiry</a></li>
+            </ul>
+            </nav></div>
+    </header>
+<section>
+    <h1>Book yours now! </h1>
+    <h2>Enjoy the Silent Seashores Luxury!</h2>
+    <hr/>
+</section>
+<section>
+    <form>
+        <p><input type="text" placeholder="Enter the Name" id="cusName" /></p>
+        <p><input type="email" placeholder="Enter the Email" id="cusEmail" /></p>
+        <p>Date of Checkin <br/><input type="date" placeholder="Date of Checkin" id="DOC" /></p>
+        <p><input type="number" placeholder="Number of Days of Stay" id="NOS" /></p>
+
+        <p><input type="tel" placeholder="Enter the Contact No" id="cusPhone" /></p>
+        <p>
+            Food style:<br/>
+            <select id="cusFS">
+                <option>choose your food style</option>
+                <option>Vegetarian</option>
+                <option>Non-Vegetarian</option>
+                <option>both</option>
+            </select>
+        </p>
+        
+        <p>
+            Life Style:<br/>
+            <input type="checkbox">Swimming Pool
+            <input type="checkbox">SPA
+            <input type="checkbox">Drinks
+        </p>
+        <p>
+            Pick-Drop from airport: <input type="radio" name="pickdrop">Yes <input type="radio" name="pickdrop">No</p>
+        </p>
+            
+        <button type="button">Book now</button>
+    </form>
+</section>
+<section>
+    <pre>
+        <hr/>
+       <b> SILENT SEASHORES
+        Resort and SPA
+        Mysuru 570018
+        Karnataka</b>
+    </pre>
+</section>
+<footer>
+    <hr />
+    &copy;Copyrights silentseashores pvt LTD.
+</footer>
+    
+</body>
+</html>
